@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto;
+
+import "proto/struct.proto";
+
+service Bye {
+    rpc SayBye(RequestStruct) returns (ReplyStruct) {}
+}

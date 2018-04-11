@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto;
+
+message RequestStruct {
+    string name = 1;
+}
+
+message ReplyStruct {
+    string message = 1;
+}
